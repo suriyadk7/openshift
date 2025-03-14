@@ -20,7 +20,7 @@ spec:
         app: open-app
     spec:
       containers:
-      - image: crccheck/hello-world
+      - image: image-registry.openshift-image-registry.svc:5000/suriyadk7-dev/openshift-git:latest
         name: hello-world
         resources: {}
 		ports:
