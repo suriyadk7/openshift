@@ -1,2 +1,2 @@
-FROM docker-remote.registry.saas.cagip.group.gca/nginx:alpine
+FROM nginx:alpine
 COPY src/index.html /usr/share/nginx/html
